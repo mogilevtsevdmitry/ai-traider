@@ -1,0 +1,3 @@
+[console_scripts]
+predict = app:predict
+train = app:train
