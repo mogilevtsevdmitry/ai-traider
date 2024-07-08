@@ -1,7 +1,8 @@
+import os
 import requests
 
 # Вставьте ваш токен API бота
-TOKEN = ''
+TOKEN = os.environ['BOT_TOKEN']
 
 # Получение обновлений от бота
 url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
